@@ -23,18 +23,3 @@ To run the program you need to install those libraries with dependencies:
 * cv2 (only for visualization)
 * json
 * numpy
-
-An easy way to install this is with [anaconda](https://www.anaconda.com/) or [miniconda](https://docs.conda.io/en/latest/miniconda.html). Then you can install e.g. torch:
-```
-conda install pytorch torchvision cpuonly -c pytorch
-```
-
-## Representation Pointcloud
-During the training of the model the pointcloud was represented in the following way:
-
-<img src="https://github.com/BerensRWU/Yolo3d/blob/master/Representation/eval_bv.png" height="400px">
-
-It is an RGB image with the density, the height and the intensity of the points as channels.
-
-## Evaluation
-Evaluate your results using the training samples with the IDs provided in eval.txt
