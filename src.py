@@ -1,3 +1,6 @@
+# Author - Ruchitha Kumar 
+# Lidar Project under guaidance of - Prof. Dr. rer. nat. Stefan Elser
+
 #! /usr/bin/env python
 
 import numpy as np
